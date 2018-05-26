@@ -1,0 +1,4 @@
+使用Deep Learning AMI (Ubuntu) Version 9.0 - ami-8024aaff。
+进入之后输入如下语句：
+
+conda install tqdm scikit-learn

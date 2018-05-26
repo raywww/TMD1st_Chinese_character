@@ -1,3 +1,14 @@
+#define by raywww
+/backup/
+/cache/
+/reference/
+/submission/
+/test1/
+/train/
+*.zip
+*.xlsx
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
