@@ -1,4 +1,27 @@
 使用Deep Learning AMI (Ubuntu) Version 9.0 - ami-8024aaff。
+
+
 进入之后输入如下语句：
 
 conda install tqdm scikit-learn
+
+（带斜杠‘/’是绝对路径， 不带斜杠‘/’是相对路径，或者用‘./’）
+
+$ lsblk
+
+$ sudo file -s /dev/xvdf
+(or)$ sudo mkfs -t ext4 device_name
+
+$ sudo mkdir data (or /home/carnd/data)
+
+$ sudo mount /dev/xvdf data (or /home/carnd/data)
+
+$ df -h
+
+$ ls -l data
+
+$ sudo chmod 777 data
+
+$ sudo cp -r data/train ./
+
+$ sudo umount -d /dev/xvdf
